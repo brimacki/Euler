@@ -1,0 +1,18 @@
+We are to find the summation of the of the even-valued terms of the Fibonacci sequence up to 4 million.
+
+Things to watch out for:
+	-There is nothing really to watch out for here.
+
+Attempt 1:
+	-This implementation will not be performance optimal.
+	-This implementation will be done in two parts, and probably consume a high level of memory:
+		--Generate the Fibonacci sequence in a C++ vector.
+		--Sum up all numbers divisible by 2.
+	-Output from bash time:
+		real	0m0.008s
+		user	0m0.002s
+		sys	0m0.003s
+	-Future optimizations:
+		--Declaring some parameters as constants
+		--Find a way to create the sequence and sum the values in the same loop
+		--Find a way to make this as a for loop instead of a conditional
