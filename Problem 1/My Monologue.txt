@@ -1,0 +1,21 @@
+We are to find the sum of all numbers less than 1000 that are multiples of 3 or 5.
+
+Things to watch out for:
+	-Are we meant to include 1000? If written precisely, no.
+	-Don't double count multiples of 15.
+
+Attempt 1:
+	-This implementation will not be performance optimal.
+	-Loop over all numbers 1-999 and add to a running sum if multiples of 3 or 5.
+	-Do the same and subtract any numbers that are multiples of 15.
+	-This prodcued the correct solution.
+	-Output from bash time:
+		real	0m0.008s
+		user	0m0.003s
+		sys	0m0.004s
+	-Possible optimizations:
+		--Declaration of N as a const int
+		--Input N from the command line
+		--Do check for multiples of 3 || 5 U 15 in a more efficient way
+		--Parallelization
+		--Compiler/architecutre optimizations
