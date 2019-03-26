@@ -1,0 +1,19 @@
+We are to find the largest prime factor of a *very* large prime number (approx. 6E11).
+
+Things to watch out for:
+	-Large number
+	-Ensuring correctness
+
+Attempt 1:
+	-Three main loops:
+		--All factors of the large number
+		--Pick out only the prime factors of the large number
+		--Report the largest prime factor (easy!)
+	-This will use the vector container of C++ since it has many nice built-in functions.
+	-Output from bash time:
+		real	0m0.007s
+		user	0m0.005s
+		sys	0m0.001s
+	-Future optimizations:
+		--This can probably be solved by recursion
+		--This algorithm probably does not need to find all the factors first. It can probably check factors along the way.
