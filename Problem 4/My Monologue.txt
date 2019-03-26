@@ -7,3 +7,10 @@ Things to watch out for: Difference between 5 and 6 digit numbers (though not an
 Attempt 1:
 	-Create all possible numbers in descending order
 	-Run an algorithm on a vector in descending order until a palindrom is found
+	-Output from bash time:
+		real	0m0.073s
+		user	0m0.068s
+		sys	0m0.003s
+	-Future optimizations:
+		--This algorithm seems very efficient.
+		--This algorithm could benefit from performance tuning.
