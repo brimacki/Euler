@@ -1,0 +1,9 @@
+We are to find the largest palindrome that is the result of the multiplicaiton from two 3-digit numbers.
+
+The numbers range between 10,000 and 998001.
+
+Things to watch out for: Difference between 5 and 6 digit numbers (though not an issue since the first palindrome will happen with 6 digits.
+
+Attempt 1:
+	-Create all possible numbers in descending order
+	-Run an algorithm on a vector in descending order until a palindrom is found
