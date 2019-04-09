@@ -1,0 +1,12 @@
+We need to find the difference between the square of the sums and the sum of the squares.
+
+Things to watch out for: Nothing. This actually has an easy mathematical trick because the formulas can be reduced to a function of the maximum number in the range.
+
+Attempt 1:
+	-Write out the formula in code.
+	-Output from bash time:
+		real	0m0.007s
+		user	0m0.002s
+		sys	0m0.003s
+	-Further optimizations:
+		--None
