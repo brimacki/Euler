@@ -1,0 +1,17 @@
+We need to find the lowest common multiple of all numbers from 1 to 20 (note that we do not need to worry about 1).
+
+Things to watch out for: Ensuring it is the lowest common multiple.
+
+Attempt 1:
+	-Find all of the numbers in the range [2,20] that are factors of other numbers in the range.
+	-Multiply all unique factors together.
+	-This problem can be solved by pencil and paper:
+		--Write out all numbers [2,20]
+		--All prime numbers shall be included, no non-prime numbers are included
+		--We must determine the largest integer to which each prime must be raised. Do this by continuing to raise that prime number to the next integer until it is greater than 20.
+	-Output from bash time:
+		real	0m0.007s
+		user	0m0.002s
+		sys	0m0.003s
+	-Future optimizations:
+		--Unknown. Algorithm seems to be very robust and fast.
