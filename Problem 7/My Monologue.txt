@@ -1,0 +1,17 @@
+We need to write a code that finds prime numbers until some number has been reached.
+
+Things to watch out for: The main thing here is to make sure the program terminates when the final prime has been found. We also need to ensure that we don't have an off by one error.
+
+Note: Since we are only determining if a number is prime, we only need to have the inner loop go up to sqrt(test num). We don't care about the "higher" prime factors.
+
+Attempt 1:
+	-Write a loop to determine if a given number is a prime number.
+	-Wrap this loop around a counter for the total number of prime numbers found.
+	-Output from time:
+		real	0m1.780s
+		user	0m0.040s
+		sys	0m0.014s
+	-Real is long here because the program waits for user input.
+	-Further optimizations:
+		-Parallelization
+		-Tuning
